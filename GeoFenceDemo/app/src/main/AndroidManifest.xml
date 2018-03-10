@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rishabhbatta.geofencedemo">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Spalshscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBYXQnoz5TOYo-U5a6lj4gEM2CIENkVe_c" />
+
+        <service
+            android:name=".GeofenceTrasitionService"
+            android:exported="true" />
+
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".AddReminderActivity"
+            android:label="@string/title_activity_add_reminder"
+            android:parentActivityName=".Main3Activity"
+            android:theme="@style/AppTheme">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main3Activity" />
+        </activity>
+
+        <provider
+            android:name=".AlarmReminderProvider"
+            android:authorities="com.rishabhbatta.geofencedemo"
+            android:exported="false" />
+
+        <service
+            android:name=".ReminderAlarmService"
+            android:exported="false" />
+
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Main3Activity"
+            android:parentActivityName=".Main4Activity"/>
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".FileImport" />
+        <activity android:name=".Gallery" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".SlideShow" />
+        <activity android:name=".Main5Activity"
+            android:parentActivityName=".ListDataActivity"/>
+
+        <activity android:name=".EditDataActivity"
+            android:parentActivityName=".ListDataActivity"/>
+        <activity android:name=".ListDataActivity"
+            android:parentActivityName=".Main4Activity"/>
+        <activity android:name=".Main6Activitylogin"></activity>
+
+        <activity android:name=".LoginActivity"/>
+    </application>
+
+</manifest>

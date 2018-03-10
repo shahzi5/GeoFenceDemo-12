@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "C:\\Users\\H P\\Videos\\GeoFenceDemo-1\\GeoFenceDemo\\Material-Color-Picker-master\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-w480dp-v13\\values-w480dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 61,
+                    "endOffset": 112
+                },
+                "from": {
+                    "file": "C:\\Users\\H P\\.android\\build-cache\\83b26c2e3fb224a73580921459127f5dbcc60266\\output\\res\\values-w480dp\\values-w480dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 231,
+                        "endColumn": 61,
+                        "endOffset": 288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 117,
+                    "endColumn": 71,
+                    "endOffset": 184
+                },
+                "from": {
+                    "file": "C:\\Users\\H P\\.android\\build-cache\\83b26c2e3fb224a73580921459127f5dbcc60266\\output\\res\\values-w480dp\\values-w480dp.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 470,
+                        "endColumn": 71,
+                        "endOffset": 537
+                    }
+                }
+            }
+        ]
+    }
+]

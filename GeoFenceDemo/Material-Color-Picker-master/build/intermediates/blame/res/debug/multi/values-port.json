@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\H P\\Videos\\GeoFenceDemo-1\\GeoFenceDemo\\Material-Color-Picker-master\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "C:\\Users\\H P\\.android\\build-cache\\83b26c2e3fb224a73580921459127f5dbcc60266\\output\\res\\values-port\\values-port.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 55,
+                        "endOffset": 280
+                    }
+                }
+            }
+        ]
+    }
+]
