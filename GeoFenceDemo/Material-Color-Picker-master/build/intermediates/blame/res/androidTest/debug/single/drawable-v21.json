@@ -4,7 +4,15 @@
         "source": "C:\\Users\\H P\\.android\\build-cache\\83b26c2e3fb224a73580921459127f5dbcc60266\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     },
     {
+        "merged": "C:\\Users\\H P\\Desktop\\GeoFenceDemo-1\\GeoFenceDemo\\Material-Color-Picker-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\H P\\.android\\build-cache\\83b26c2e3fb224a73580921459127f5dbcc60266\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
         "merged": "C:\\Users\\H P\\Videos\\GeoFenceDemo-1\\GeoFenceDemo\\Material-Color-Picker-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\H P\\.android\\build-cache\\83b26c2e3fb224a73580921459127f5dbcc60266\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\H P\\Desktop\\GeoFenceDemo-1\\GeoFenceDemo\\Material-Color-Picker-master\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_btn_colored_material.xml",
         "source": "C:\\Users\\H P\\.android\\build-cache\\83b26c2e3fb224a73580921459127f5dbcc60266\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
     }
 ]
